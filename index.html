@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Orio's Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            background-color: #f4f4f4;
+        }
+
+        .header {
+            background-color: #cccccc;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header h1 {
+            margin: 0;
+        }
+
+        .header img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+
+        .main {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            align-items: stretch; /* Ensures both columns stretch to the same height */
+        }
+
+        .left-column, .right-column {
+            width: 48%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .section {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            flex: 1; /* Ensures the sections fill the available space */
+        }
+
+        .contact-info ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .contact-info ul li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+
+        .contact-info ul li span {
+            margin-right: 10px;
+        }
+
+        .skills ul {
+            list-style: disc inside; /* Adds bullets to the skills list */
+            padding: 0;
+        }
+
+        .skills ul li {
+            margin-bottom: 5px;
+        }
+
+        .experience-item, .education-item {
+            margin-bottom: 15px;
+        }
+
+        .experience-item h3, .education-item h3 {
+            margin: 0;
+        }
+
+        .experience-item p, .education-item p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div>
+            <h1>Orio, John Gary</h1>
+            <p>Web Developer</p>
+        </div>
+        <img src="profilepic.jpg" alt="john.">
+    </div>
+
+    <div class="main">
+        <div class="left-column">
+            <div class="section contact-info">
+                <h2>Contact Information</h2>
+                <ul>
+                    <li><span>☎</span> Phone: 09164713768</li>
+                    <li><span>✉</span> Email: johngaryorio21@gmail.com</li>
+                    <li><span>🏠</span> Address: Luksuhin, Alfonso Cavite</li>
+                    <li><span>🌐</span> Website: <a href="http://johnorio.com">johnorio.com</a></li>
+                </ul>
+            </div>
+
+            <div class="section skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Communication skills</li>
+                    <li>Floor plan developer</li>
+                </ul>
+            </div>
+
+            <div class="section education">
+                <h2>Education</h2>
+                <div class="education-item">
+                    <h3>Elementary</h3>
+                    <p>Institution: Tarlac Elementary School </p>
+                    <p>Duration: 2015 - 2016</p>
+                </div>
+
+                <div class="education-item">
+                    <h3>Highschool</h3>
+                    <p>Institution: Rogationist College</p>
+                    <p>Duration: 2016 - 2022</p>
+                </div>
+
+                <div class="education-item">
+                    <h3>College</h3>
+                    <p>Institution: Southern Luzon College, Philippines</p>
+                    <p>Duration: 2023 - 2024</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-column">
+            <div class="section profile">
+                <h2>Profile</h2>
+                <p>I am a qualified and professional web developer with five years of experience in database administration and website design. Strong creative and analytical skills. Team player with an eye for detail.</p>
+            </div>
+
+            <div class="section achievements">
+                <h2>Achievements</h2>
+
+                <div class="achievements-item">
+                    <li>Gll-G12 consistent with Honors</li>
+                </div>
+
+                <div class="achievements-item">
+                    <li>Best in photo journalism</li>
+                </div>
+
+                <div class="achievements-item">
+                    <li>1st place in Poster making contest</li>
+                </div>
+
+                <div class="achievements-item">
+                    <li>Food and drug awareness</li>
+                </div>
+                
+                <div class="achievements-item">
+                    <li>Conduct awardee</li>
+                </div>
+                
+                <div class="achievements-item">
+                    <li>Class Vice President 2023-2024</li>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
